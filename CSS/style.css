@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', 'sans-serif';
+    font-size: 15px;
+    border-top: 10px solid #79a1b1;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.logo {
+    text-align: center;
+    /* margin-bottom: 50px; */
+}
+
+.logo p {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    display: inline !important;
+    /* margin-bottom: 5px; */
+    margin-left: 49%;
+    margin-right: 50%;
+    max-block-size: 2.5em;
+
+}
+
+.w_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header ul {
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 80%;
+    align-items: center;
+}
+
+.header ul li {
+    width: 20%;
+    min-width: 150px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.header ul li:first-child {
+    border-left: 1px solid #ddd;
+}
+
+.header ul li a {
+    display: block;
+    padding: 15px;
+}
+
+.header ul li:hover {
+    background-color: #ddd;
+}
+
+.header_img {
+    /* display: inline!important; */
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.container_service .service_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_service .service {
+    width: 380px;
+    text-align: center;
+}
+
+.container_service h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container_service .service img {
+    margin-bottom: 20px;
+}
+
+.container_service .service .ttl {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.container_service .service .explain {
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.container_service .service a {
+    background: #79a1b1;
+    color: #fff;
+    padding: 15px 20px 12px;
+}
+
+.container_service .service a:hover {
+    background: #405963;
+}
+
+.footer {
+    margin-top: 60px;
+}
+
+.pp_link {
+    text-align: right;
+    margin-bottom: 7px;
+}
+
+.copy {
+    text-align: center;
+    background: #79a1b1;
+    color: #fff;
+    font-size: 12px;
+    padding: 7px 0 3px;
+}
+
+.imgWrapper {
+    display: block;
+    position: relative;
+    backface-visibility: hidden;
+}
+
+.imgWrapper a {
+    background: #fff !important;
+}
+
+.imgWrapper .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+}
+
+img {
+    backface-visibility: hidden;
+    transition: all ease 1s;
+}
+
+.imgWrapper:hover .front {
+    transform: rotateY(180deg);
+}
+
+.imgWrapper:hover .back {
+    transform: rotateY(0);
+}
