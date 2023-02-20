@@ -67,6 +67,7 @@ a {
     text-align: center;
     margin: auto;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .container_service .service_block {
